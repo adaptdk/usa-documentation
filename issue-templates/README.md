@@ -14,5 +14,5 @@ always be updated to suit the project.
 
 ## Templates
 
- * [Deployment Template](/github-templates/Deployment-Ticket-Template.md)
- * [Pull Request Template](/github-templates/Pull-Request-Template.md)
+ * [Deployment Template](/issue-templates/Deployment-Ticket-Template.md)
+ * [Pull Request Template](/issue-templates/Pull-Request-Template.md)
