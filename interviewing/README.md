@@ -15,7 +15,9 @@ to know if their goals and working style will align well enough with Adapt's and
 the current team to be mutually beneficial.
 
  * Why do you want to work at Adapt?
- * How would you describe your role on past projects?  How did those go?
+ * Tell me about a past project and your role on that project / within that
+   team.  Was the project successful?  Did you enjoy that role?  Do you have
+   any takeaways from the project?
    * Follow up: Have you had any projects that haven't gone well?  How did you
      navigate what can be a stressful situation and what did you take out of
      that?
