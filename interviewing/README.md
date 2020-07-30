@@ -27,6 +27,6 @@ the current team to be mutually beneficial.
    work with.
    * Ideally, how do you want to interact with a manager or team lead?
    * What about with other team members?
- * For developers: What kind of tech do you get excited about?  Anything that you
-   think would be fun to explore if you got a chance on a client project?
+ * For developers: What kind of tech do you get excited about?  Anything that
+   you think would be fun to explore if you got a chance on a client project?
  * What are you passionate about outside of work?
