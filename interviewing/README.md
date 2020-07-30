@@ -1,7 +1,7 @@
 Interviewing
 ------------
 
-The following can be used as a starting point for interview potential hires.
+The following can be used as a starting point for interviewing potential hires.
 We should strive to get towards some sort of
 [structured interview process](https://hire.google.com/articles/structured-interview/).
 
