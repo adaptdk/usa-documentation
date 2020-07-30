@@ -15,9 +15,10 @@ align well enough with Adapt's and the current team to be mutually beneficial.
  * Why do you want to work at Adapt?
  * How would you describe your role on past projects?  How did those go?
    * Follow up: Have you had any projects that haven't gone well?  How did you navigate what can be a stressful situation and what did you take out of that?
-* If you were working for Adapt right now and you could set your own schedule, how would you prefer to spend your time?
-* In 3 - 5 years, what kind of position do you want to be in or what type of work do you want to be doing?
-* Everyone works different and has different relationships with the people they work with.
-  * Ideally, how do you want to interact with a manager or team lead?
-  * What about with other team members?
-* What are you passionate about outside of work?
+ * If you were working for Adapt right now and you could set your own schedule, how would you prefer to spend your time?
+ * In 3 - 5 years, what kind of position do you want to be in or what type of work do you want to be doing?
+ * Everyone works different and has different relationships with the people they work with.
+   * Ideally, how do you want to interact with a manager or team lead?
+   * What about with other team members?
+ * For developers: What kind of tech do you get excited about?  Anything that you think would be fun to explore if you got a chance on a client project?
+ * What are you passionate about outside of work?
