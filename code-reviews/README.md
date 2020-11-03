@@ -24,6 +24,15 @@
   - Any manual setup setps that need to happen prior to testing
   - Testing steps + expected outcomes
 
+## Work in small batches
+
+Whenever possible, favor small, frequently submitted batches of work over large infrequently submitted batches. Small batches of work are easier for a reviewer to reason about.
+
+For instance, if you are assigned a ticket that will require changes to multiple parts of the system, consider submitting several PRs, one for each part of the system. This will allow the reviwer the opportunity to review each change in isolation, allowing them to provide better feedback.
+
+Submitting small PRs early in the process also allows for early review from peers. For instance, if you aren't sure the best way to implement something, push up a WIP PR and ask for feedback from the team.
+
+Keep in mind that `main` branch should always be in a deployable state. If you submit a PR that relies on work not yet complete, ensure that merging your initial PR will not bring `main` into a non-functional state. How to acheive this is a judgement call dependent on the situation, but usually their are logical boundaries which can be used to segment what goes into a PR. If needed you can always fall back to a single, larger PR utilizing the WIP PR state on Github to allow others the opportunity to review as you go.
 
 ## Democratize code review
 
