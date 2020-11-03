@@ -34,6 +34,12 @@ Submitting small PRs early in the process also allows for early review from peer
 
 Keep in mind that `main` branch should always be in a deployable state. If you submit a PR that relies on work not yet complete, ensure that merging your initial PR will not bring `main` into a non-functional state. How to acheive this is a judgement call dependent on the situation, but usually their are logical boundaries which can be used to segment what goes into a PR. If needed you can always fall back to a single, larger PR utilizing the WIP PR state on Github to allow others the opportunity to review as you go.
 
+## Reduce the number of handoffs
+
+Each handoff requires context switching and communication, all of which take time. During a review, if you see something small that needs changing, feel free to make the change while reviewing the PR. You can then push that change to the branch under reivew and comment back on the ticket calling the original author's attention to the change.
+
+When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a handoff by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large or intricate, it's likely better to request changes from the original dev and incur the cost of the handoff. In other words, it's a trade-off.
+
 ## Democratize code review
 
 As much as possible we should share code reviews between the core team members.
