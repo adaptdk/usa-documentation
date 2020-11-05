@@ -38,7 +38,7 @@ Keep in mind that `main` branch should always be in a deployable state. If you s
 
 Each handoff requires context switching and communication, all of which take time. During a review, if you see something small that needs changing, feel free to make the change while reviewing the PR. You can then push that change to the branch under reivew and comment back on the ticket calling the original author's attention to the change.
 
-When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a handoff by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large or intricate, it's likely better to request changes from the original dev and incur the cost of the handoff. In other words, it's a trade-off.
+When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a handoff by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large, intricate, or would provide useful context and learning opportunities for the dev, it's likely better to request changes from the original dev and incur the cost of the handoff. In other words, it's a trade-off.
 
 ## Democratize code review
 
