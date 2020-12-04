@@ -1,12 +1,13 @@
-Adapt USA Workflow Documentation
---------------------------------
+# Adapt USA Workflow Documentation
 
+## Important Note
+
+_This repositry is public and available on the internet, please act accordingly. Anything that is proprietary can be added as a link to a non-public system._
 
 ## New Developers
 
 If you're new to the team, please start by going through the [New Developer Onboarding](/developer-onboarding) section.
 Otherwise, please navigate the contents.
-
 
 ## Contributing
 
