@@ -14,7 +14,7 @@ This is a living document that will change as we learn and grow as an organizati
 
 ## Gathering Requirements
 
-This is a the first and arguably most critical part of the project life cycle. It is vital that we gather requirements precisely so that client expectations are lockstep with our own.
+This is the first and arguably most critical part of the project life cycle. It is vital that we gather requirements precisely so that client expectations are lockstep with our own.
 
 At the end of this phase, we should know the following:
 
@@ -41,7 +41,7 @@ When we begin a new project, the following infrastructure needs to be establishe
 * Create a new Workspace in Zenhub
   * Ensure that the following Pipelines are in place:
     * New Issues: Where issues go that have yet to be prioritized
-    * Backlog: Issues move into the Backlog once they are assigned to a developer and are ready for implemntation
+    * Backlog: Issues move into the Backlog once they are assigned to a developer and are ready for implementation
     * In Progress: Issues that are currently being worked on
     * Review / QA: Catchall for code review and functional QA
     * Done: Merged into the main development branch, but not yet deployed to production

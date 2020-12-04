@@ -15,7 +15,7 @@ Pretty simple 😉
 * Standup meetings should be scheduled for 15 minutes
 * Put the 3 questions that everyone is expected to answer in the meeting invite
 * Share your screen, with following windows open:
-  * Speaker order for that meeting. Consider randomizing the order with [a tool like this](https://www.browserling.com/tools/random-lines?input=Jack%0AJill%0ADiane) (notice the names in the URL, which allow you to re-use the link without typing in everyones name again)
+  * Speaker order for that meeting. Consider randomizing the order with [a tool like this](https://www.browserling.com/tools/random-lines?input=Jack%0AJill%0ADiane) (notice the names in the URL, which allow you to re-use the link without typing in everyone's name again)
   * Kanban board for the current sprint, filtered by the person that's currently speaking
 * Primary goals of a standup
   * **Provide a shared understanding of project goals:** Even if everyone is on the same page at the beginning of a project, understanding tends to shift / deteriorate over time. Standup meetings provide small course corrections which ensure we maintain alignment.

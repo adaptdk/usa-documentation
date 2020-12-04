@@ -4,7 +4,8 @@ Adapt USA Workflow Documentation
 
 ## New Developers
 
-If you're new to the team, please start by going through the [New Developer Onboarding](/developer-onboarding) section. Otherwise, use the sidebar to navigate the contents of the wiki.
+If you're new to the team, please start by going through the [New Developer Onboarding](/developer-onboarding) section.
+Otherwise, please navigate the contents.
 
 
 ## Contributing
