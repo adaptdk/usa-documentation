@@ -77,6 +77,23 @@ Tickets in the active sprint are organized into pipelines. Those are:
   * Done: Merged into develop branch, but not yet deployed to production
   * Closed: Deployed to production
 
+### Ticket Assignment
+
+Ticket assignment can handled in one of two ways:
+
+- Top down assignment
+- Open backlog (preferred)
+
+#### Top down assignment
+
+This is the more traditional approach where the project lead assigns tickets to developers explicitly. This approach gives the project lead a lot of control over the order in which tickets get completed and by whom. It also puts the project lead in a bottleneck position. If a developer is out of tickets, but the project lead is not online, the developer is blocked. It also implies a low trust atmosphere on the development team.
+
+#### Open Backlog
+
+In this model, the project lead populates the backlog according to priority. Developers are then able to self-select tickets out of the backlog based on priority & required skill set. When selecting a ticket, a developer chooses the highest priority ticket that they feel capable of solving.
+
+In order for this to work, all tickets need to be well fleshed out and prioritized before the sprint starts, effectively holding the project lead accountable. This approach implies a high trust atmosphere on the development team.
+
 ## Development workflow
 
 Our development workflow centers around the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). You should be familiar with the general concepts before reading further.
