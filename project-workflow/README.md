@@ -79,7 +79,7 @@ Tickets in the active sprint are organized into pipelines. Those are:
 
 ### Ticket Assignment
 
-Ticket assignment can handled in one of two ways:
+Ticket assignment can be handled in one of two ways:
 
 - Top down assignment
 - Open backlog (preferred)
