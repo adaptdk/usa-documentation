@@ -16,4 +16,4 @@ always be updated to suit the project.
 
  * [Deployment Template](/issue-templates/Deployment-Ticket-Template.md)
  * [Issue Template](/issue-templates/issue_template.md)
- * [Pull Request Template](/issue-templates/Pull-Request-Template.md)
+ * [Pull Request Template](/issue-templates/pull_request_template.md)
