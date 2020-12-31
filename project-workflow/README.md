@@ -94,6 +94,8 @@ In this model, the project lead populates the backlog according to priority. Dev
 
 In order for this to work, all tickets need to be well fleshed out and prioritized before the sprint starts, effectively holding the project lead accountable. This approach implies a high trust atmosphere on the development team.
 
+In this context it is highly useful to use tags to help filtering out tickets on project boards.
+
 ## Development workflow
 
 Our development workflow centers around the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). You should be familiar with the general concepts before reading further.
