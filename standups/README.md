@@ -7,8 +7,11 @@ We expect the following from standup participants:
   * What have you accomplished since the last meeting?
   * What will you be working on until the next meeting?
   * What blockers do you have?
+* If there is something that may take some time to discuss, request and
+  after-meeting with only the needed people, instead of trying to approach it
+  there.
 
-Pretty simple 😉
+Pretty simple.
 
 ## For Facilitators
 
