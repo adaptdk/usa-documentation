@@ -24,3 +24,10 @@ Pretty simple.
   * **Provide a shared understanding of project goals:** Even if everyone is on the same page at the beginning of a project, understanding tends to shift / deteriorate over time. Standup meetings provide small course corrections which ensure we maintain alignment.
   * **Allow space for sharing problems & solutions:** If a team member is having trouble with an issue, this is a great time for other team members to offer solutions. Typically, these solutions should be discussed outside the standup, but this is a good space to identify those follow up discussions.
   * **Foster team identity:** Working with remote teams can be isolating / lonely sometimes. This is a good opportunity to foster team identity so that we can unite around a shared goal (delivering high quality software for our customers)
+* Consider using non-live interaction instead of live meetings, setting a clear
+  timeline for them to be produced by the team.
+  This approach can help to decrease interruptions, especially if more than one
+  project is being worked at a time.
+  An example to implement this is to use a slack channel as the place to report
+  to, set a reminder to trigger at the needed pace, and suggest to use a thread
+  to capture replies.
