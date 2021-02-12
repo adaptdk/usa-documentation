@@ -6,3 +6,5 @@ Please review the following resources detailing how we work. Feel free to follow
 - Testing / QA Workflow
 - [Standup meeting expectations](/standups#for-participants)
 - [Front-end development best practices](/frontend-methodologies)
+
+You also may need access to a lastpass account, please ask about it.
