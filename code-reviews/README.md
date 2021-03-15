@@ -34,11 +34,11 @@ Submitting small PRs early in the process also allows for early review from peer
 
 Keep in mind that `main` branch should always be in a deployable state. If you submit a PR that relies on work not yet complete, ensure that merging your initial PR will not bring `main` into a non-functional state. How to achieve this is a judgement call dependent on the situation, but usually their are logical boundaries which can be used to segment what goes into a PR. If needed you can always fall back to a single, larger PR utilizing the WIP PR state on Github to allow others the opportunity to review as you go.
 
-## Reduce the number of handoffs
+## Reduce the number of hand-offs
 
-Each handoff requires context switching and communication, all of which take time. During a review, if you see something small that needs changing, feel free to make the change while reviewing the PR. If you do this, it's important that you make the change visible to the PR author so that they internalize your feedback and adjust their approach in the future. You can do this via Github's [suggested change feature](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request) or by commenting on the PR with a link to your relevant commit.
+Each hand-off requires context switching and communication, all of which take time. During a review, if you see something small that needs changing, feel free to make the change while reviewing the PR. If you do this, it's important that you make the change visible to the PR author so that they internalize your feedback and adjust their approach in the future. You can do this via Github's [suggested change feature](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request) or by commenting on the PR with a link to your relevant commit.
 
-When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a handoff by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large, intricate, or would provide useful context and learning opportunities for the dev, it's likely better to request changes from the original dev and incur the cost of the handoff. In other words, it's a trade-off.
+When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a hand-off by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large, intricate, or would provide useful context and learning opportunities for the dev, it's likely better to request changes from the original dev and incur the cost of the hand-off. In other words, it's a trade-off.
 
 ## Democratize code review
 

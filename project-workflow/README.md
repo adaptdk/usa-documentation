@@ -33,22 +33,7 @@ Once detailed requirements are gathered from the client, they get recorded as on
 
 ## Project setup
 
-When we begin a new project, the following infrastructure needs to be established in order for our workflows to function:
-
-* Create a new repository on GitHub under the `adaptdk` organization.
-  * Set team access as needed.
-* [Setup](https://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository) the [pull request template](/issue-templates/Pull-Request-Template.md) in the project repository.
-* Create a new Workspace in Zenhub
-  * Ensure that the following Pipelines are in place:
-    * New Issues: Where issues go that have yet to be prioritized
-    * Backlog: Issues move into the Backlog once they are assigned to a developer and are ready for implementation
-    * In Progress: Issues that are currently being worked on
-    * Review / QA: Catchall for code review and functional QA
-    * Done: Merged into the main development branch, but not yet deployed to production
-    * Closed: Deployed to production
-* Create a new project in Basecamp & invite relevant team members (including client team members)
-  * Add all relevant artifacts to the docs section in Basecamp
-* Create a new project in Harvest and add relevant team members
+See the [New Project Checklist](/checklists/NEW_PROJECT.md).
 
 ## Milestone setup
 
