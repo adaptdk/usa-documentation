@@ -14,7 +14,7 @@ Not every project is identical, so it's possible that not all of these items wil
   - [ ] Create a new Workspace in Zenhub, and setup status as pipelines.
 
   Status's are a subset of the following:
-  - New: Where issues go that have yet to be prioritized. Not needed on Github project.
+  - New: Where issues go that have yet to be prioritized.
   - Backlog: Issues move into the Backlog once they are ready for implementation
   - In Progress: Issues that are currently being worked on
   - Review / QA: Catchall for code review and functional QA
@@ -28,3 +28,7 @@ Not every project is identical, so it's possible that not all of these items wil
 - [ ] Create Harvest project.
   - [ ] Add relevant team members.
 - [ ] Schedule regular budget reviews
+- [ ] Write "Project Context" document and post to Basecamp so that onboarding team members is smoother
+  - What problem are we solving / what is the intended end goal?
+  - Who are the key stakeholders on the client team and what is are their roles?
+  - Summary of what we know so far
