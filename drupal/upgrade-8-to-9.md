@@ -44,6 +44,20 @@ A given module upgrade is likely close to the following steps.
 1. Export configuration back into code that may have been changed on updates, and commit them, e.g. `lando drush cex`.
 1. Verify its functionality is still in place on the site.
 
+## Composer 2
+
+It is likely that the site was using composer 1 with drupal 8.x.
+This is especially true when using drupal/core-dev, which pins a composer
+version.
+
+During this upgrade, composer plugins need to be compatible with composer 2
+before the upgrade; hence, in the same way than with modules, updating to a
+recent version with compatibility for the new version is the first step.
+
+Also, several of them may just need to be removed.
+
+See [Preparing your site for Composer 2](https://www.drupal.org/docs/develop/using-composer/preparing-your-site-for-composer-2).
+
 ## Other notes
 
 - Gather production names and versions of infrastructure software: web server, php version, other services in use.
