@@ -23,6 +23,7 @@ Includes some hints about fixing status first, since code may have not been crea
 1. Make sure configuration export does not generate changes, for the usual case when configuration is tracked on git.
 1. Make sure there are no pending Drupal 8 security upgrades for Drupal core or contributed modules.
    If there are some, install and deploy them first.
+1. Make sure the project is using `drupal/core-recommended`, which is the suggested way to track drupal dependencies, change to it if needed.
 1. Install [upgrade_status](https://www.drupal.org/project/upgrade_status) module locally, excluding it from configuration exports.
    E.g. `$settings['config_exclude_modules'] = ['upgrade_status'];` on your `settings.local.php`.
 1. Remove modules in the codebase that are not installed on the site or not planned to be used.
