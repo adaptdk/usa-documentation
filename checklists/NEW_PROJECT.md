@@ -8,6 +8,7 @@ Not every project is identical, so it's possible that not all of these items wil
   - [ ] Invite client team members.
   - [ ] Add all relevant artifacts to the docs section in Basecamp.
 - [ ] Create new Github repository.
+  - [ ] Change settings to remove branches after merges.
 - [Setup](https://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository) the [pull request template](/issue-templates/Pull-Request-Template.md) in the project repository.
 - [ ] Identify the project type, most likely *Scrum*, but use *Kanban* for maintenance projects.
 - [ ] Setup the board to use.
