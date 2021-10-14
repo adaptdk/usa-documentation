@@ -50,6 +50,8 @@ A given module upgrade is likely close to the following steps.
 It is likely that the site was using composer 1 with drupal 8.x.
 This is especially true when using drupal/core-dev, which pins a composer
 version.
+For that specific case removing core-dev is an easy way to allow for a composer
+2 update without the core upgrade at the same time.
 
 During this upgrade, composer plugins need to be compatible with composer 2
 before the upgrade; hence, in the same way than with modules, updating to a
