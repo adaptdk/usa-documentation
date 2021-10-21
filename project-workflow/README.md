@@ -42,9 +42,7 @@ We use milestones to organize our work. This is how milestones should be set up:
 * Our preferred milestone length is 2 weeks.
   * For maintenance projects, it is acceptable not to create milestones. Maintenance projects typically do not have many active issues, so we do not need to open and close milestones needlessly.
 * At the start of each milestone, the following tasks should be completed by the project lead / PM:
-  * Create a deployment ticket to be used to track time spent on deployments, as well as any manual deployment steps specific to this deployment. Use [this template](/issue-templates/Deployment-Ticket-Template.md) for deployment tickets.
   * Assign an estimate to each ticket (in hours). This is used for planning purposes, as well as to set expectations with the assigned developer. Technically, Zenhub tracks estimates as story points, but we find these to be too vague for the context in which we operate.
-  * Assign each ticket in the sprint to a developer based on that developers capacity & the estimates developed in the previous step.
 
 
 ## Ticketing workflow
@@ -101,8 +99,10 @@ Our development workflow centers around the [Gitflow](https://www.atlassian.com/
 
 ## Time tracking
 
-* All time should be logged to a specific ticket in Harvest.
-* It is recommended to use the [Harvest plugin for chrome](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) to make time tracking easier (Firefox equivalent looks to exist)
+* All time should be logged to in Forecast.app.  Tickets are not opened in forecast,
+  instead time is logged based on a generic task such as "Development".
+* When logging time, please choose the correct task and add a brief note about what
+  you did, with a link to the ticket or PR if possible.
 
 ## Client communication
 
@@ -114,6 +114,6 @@ Our development workflow centers around the [Gitflow](https://www.atlassian.com/
 ## Tooling
 
 - Git repo: Github
-- Ticketing: Github
-- Time tracking: Harvest
+- Ticketing: Github / Zenhub
+- Time tracking: Forecast.app
 - Client communication: Basecamp

@@ -1,3 +1,6 @@
+*@outdated: This content may be a useful reference but it's not
+  how we approach all frontend projects at this point.*
+
 What follows is our preferred methodology for front-end development. Keeping our front-end tooling consistent across projects should help reduce context switching. Refer to the theme in our [Drupal 8 starter](https://github.com/adaptdk/drupal8-starter) for an example implementation.
 
 These rules aren't set in stone. In the [words of Orwell](https://www.writingclasses.com/toolbox/tips-masters/george-orwell-6-questions-6-rules):
