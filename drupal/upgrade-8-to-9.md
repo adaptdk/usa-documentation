@@ -24,6 +24,7 @@ Includes some hints about fixing status first, since code may have not been crea
 1. Make sure there are no pending Drupal 8 security upgrades for Drupal core or contributed modules.
    If there are some, install and deploy them first.
 1. Make sure the project is using `drupal/core-recommended`, which is the suggested way to track drupal dependencies, change to it if needed.
+1. Upgrade to composer 2, see section below.
 1. Install [upgrade_status](https://www.drupal.org/project/upgrade_status) module locally, excluding it from configuration exports.
    E.g. `$settings['config_exclude_modules'] = ['upgrade_status'];` on your `settings.local.php`.
 1. Remove modules in the codebase that are not installed on the site or not planned to be used.
@@ -31,6 +32,8 @@ Includes some hints about fixing status first, since code may have not been crea
 1. Run the `upgrade_status` check for custom modules, and change its code to be compatible with Drupal 9 if needed.
 1. Investigate, evaluate, and upgrade contributed modules without a Drupal 9 compatible version.
    This can be a really consuming step if there are multiple or the contributed modules are complex.
+1. Investigate, evaluate, and upgrade custom modules to be compatible with Drupal 9.
+1. Drush is likely in use, update at least to version 10.
 1. Upgrade drupal core and related dependencies.
 1. Evaluate Drupal 9 infrastructure requirements are met on the production environment, and deploy.
 
@@ -44,6 +47,10 @@ A given module upgrade is likely close to the following steps.
 1. Run database updates, e.g. `lando drush updb`.
 1. Export configuration back into code that may have been changed on updates, and commit them, e.g. `lando drush cex`.
 1. Verify its functionality is still in place on the site.
+
+For modules that have a patch available, but no new release with Drupal 9
+support, the new [drupal.org lenient repository can be
+used](https://www.drupal.org/docs/develop/using-composer/using-drupals-lenient-composer-endpoint).
 
 ## Composer 2
 
@@ -64,4 +71,4 @@ See [Preparing your site for Composer 2](https://www.drupal.org/docs/develop/usi
 ## Other notes
 
 - Gather production names and versions of infrastructure software: web server, php version, other services in use.
-- Be sure that you are using the composer version at the `composer.lock`, so keep changes as minimal as possible there.
+- Be sure that you are using the composer version at the `composer.lock`, to keep changes as minimal as possible there.
