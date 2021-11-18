@@ -2,11 +2,7 @@
 
 Not every project is identical, so it's possible that not all of these items will be relevant to your project. Use your best judgement, and don't hesitate to ask the team if you have questions. Some of these tasks can be taken on by the PM if desired.
 
-- [ ] Create Github team for project (see [documentation regarding team structure](../github-team-structure/README.md)). Set team access as needed.
-- [ ] Create new Basecamp project.
-  - [ ] Invite internal team members.
-  - [ ] Invite client team members.
-  - [ ] Add all relevant artifacts to the docs section in Basecamp.
+
 - [ ] Create new Github repository.
   - [ ] Change settings to remove branches after merges.
 - [Setup](https://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository) the [pull request template](/issue-templates/Pull-Request-Template.md) in the project repository.
@@ -24,6 +20,15 @@ Not every project is identical, so it's possible that not all of these items wil
 
   For a *Scrum* board: New, Backlog, In Progress, Review/QA, Closed.
   For a *Kanban* board: New, Backlog, In Progress, Review/QA, Done, Closed.
+  
+- [ ] Add the following github teams to the project repo (see [documentation regarding team structure](../github-team-structure/README.md))
+  - [ ] [adapt-usa-admin](https://github.com/orgs/adaptdk/teams/adapt-usa-admin) should have admin access
+  - [ ] [adapt-usa-developers](https://github.com/orgs/adaptdk/teams/adapt-usa-developers) should have write access
+  - [ ] [adapt-usa-pm](https://github.com/orgs/adaptdk/teams/adapt-usa-pm) should have maintain access
+- [ ] Create new Basecamp project.
+  - [ ] Invite internal team members.
+  - [ ] Invite client team members.
+  - [ ] Add all relevant artifacts to the docs section in Basecamp.
 - [ ] Establish internal meeting cadence (aka standups) dependent on schedule + project size.
 - [ ] Establish external meeting cadence with client
 - [ ] Create Harvest project.
