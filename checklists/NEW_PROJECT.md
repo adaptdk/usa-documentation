@@ -31,10 +31,10 @@ Not every project is identical, so it's possible that not all of these items wil
   - [ ] Add all relevant artifacts to the docs section in Basecamp.
 - [ ] Establish internal meeting cadence (aka standups) dependent on schedule + project size.
 - [ ] Establish external meeting cadence with client
-- [ ] Create Harvest project.
-  - [ ] Add relevant team members.
 - [ ] Schedule regular budget reviews
-- [ ] Write "Project Context" document and post to Basecamp so that onboarding team members is smoother
+- [ ] Write "Project Kickoff" document based on [this template](https://3.basecamp.com/4276003/buckets/13508696/messages/4367357594) and post to Basecamp so that onboarding team members is smoother
   - What problem are we solving / what is the intended end goal?
-  - Who are the key stakeholders on the client team and what is are their roles?
+  - Who are the key stakeholders on the client team and what are their roles?
   - Summary of what we know so far
+  - Access
+  - Artifacts
