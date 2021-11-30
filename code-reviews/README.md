@@ -83,10 +83,5 @@ pieces of the PR that may require context._
   someone more experienced with that tool to approve the work.
 * The change is large and touches many parts of the system.
 * You want feedback on if the code is clear for future developers.
-* The change is an **important** request and needs a second set of eyes to ensure
+* The change is an important request and needs a second set of eyes to ensure
   correctness.
-
-
-
-### Footnotes
-  1. A low risk factor could mean many things, for example, maybe the PR is a copy change or the project isn't live yet.  This does require some judgement on the part of the person merging the PR to understand the project, client, and change being made.
