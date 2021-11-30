@@ -50,3 +50,43 @@ person. This leads to lower quality review + fatigue on the architect.
 Another benefit of sharing code review responsibilities is that domain knowledge
 is spread out amongst team members. This helps prevent individual team members
 from becoming single points of failure on a project.
+
+## What to do when working solo
+
+Occasionally you may be working on a project on your own.  Should you still go about
+getting code reviews or should you merge straight to main?  Like so many other times,
+the answer is "it depends".  If you are unsure if you should get a code review, review
+the lists of examples below to help guide you.  If you are still unsure after reviewing the lists,
+then it sounds like you may not be 100% confident in the change, in which case, ask for
+a review!
+
+_Note: Just remember that when you are working solo, it means that anyone you ask for a code
+review will be taking time out of their allocations to review your code.  Before they get to
+your PR and go 🤷, do that reviewer a solid by documenting your code, linking
+to any relevant tickets, and writing a well formed PR summary with testing steps and notes about
+pieces of the PR that may require context._
+
+**Reasons you may not need a code review when working solo**
+
+* The project has tests that cover the changed code and continue to pass
+* The change is straightforward, such as copy change.
+* The project is not yet live and the client is expecting to continue to refine
+  the work.
+
+**Reasons to seek code review when working solo**
+
+* You want feedback on the code you've written, for example on whether
+  there are better ways to solve the problem.
+* You don't feel confident that you understand the code that you've changed
+  or any potential side effects.
+* You're working in a new project, language, framework, etc... and would like
+  someone more experienced with that tool to approve the work.
+* The change is large and touches many parts of the system.
+* You want feedback on if the code is clear for future developers.
+* The change is an **important** request and needs a second set of eyes to ensure
+  correctness.
+
+
+
+### Footnotes
+  1. A low risk factor could mean many things, for example, maybe the PR is a copy change or the project isn't live yet.  This does require some judgement on the part of the person merging the PR to understand the project, client, and change being made.
