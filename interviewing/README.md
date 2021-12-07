@@ -46,21 +46,21 @@ We want to create a space where interns can be productive and learn new skills. 
   - API
   - Front-end VS Back-end
   - How a browser works
-- What would you do if in the course of working on a feature you encounter something that you didn’t know how to do?
+- What would you do if in the course of working on a feature you encounter something that you didn't know how to do?
 
 ### Coding Challenge
 
-In advance of our first conversation, we should have prospects complete a small coding challange. The ideal challange would take no more than one hour.
+In advance of our first conversation, we should have prospects complete a small coding challenge. The ideal challenge would take no more than one hour.
 
 @TODO: Replace the following section with a link to a repository.
 
-The challange be structured as follows:
+The challenge be structured as follows:
 
 - Set up a public repository under the Adapt namespace
 - In the README, document how to complete the challenge
-- Candidate forks the repo, completes the challange and submits a PR back to us for review.
+- Candidate forks the repo, completes the challenge and submits a PR back to us for review.
 - We can give them a few options of programming languages, JS & PHP to start.
-- Each langauge should have an accompanying test harness + scaffolding to make things easier
+- Each language should have an accompanying test harness + scaffolding to make things easier
   - Ideally this is an empty function / method with a comment letting them know "your code goes here"
   - We aren't trying to ensure we know how to write unit tests, we're trying to ensure they have some basic programming knowledge
 
