@@ -2,7 +2,7 @@
 
 The following can be used as a starting point for interviewing potential hires.
 We should strive to get towards some sort of
-[structured interview process](https://hire.google.com/articles/structured-interview/).
+[structured interview process](https://web.archive.org/web/20200511052822/https://hire.google.com/articles/structured-interview/)
 
 ## Culture Fit / Culture Add
 
