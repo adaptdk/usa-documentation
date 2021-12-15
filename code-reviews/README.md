@@ -40,12 +40,20 @@ Each hand-off requires context switching and communication, all of which take ti
 
 When to do this is a judgment call. In general, choose the route that will help the team progress the fastest. In other words, if you can eliminate the need for a hand-off by making a change yourself, this is usually the preferred option. On the other hand, if the needed change is large, intricate, or would provide useful context and learning opportunities for the dev, it's likely better to request changes from the original dev and incur the cost of the hand-off. In other words, it's a trade-off.
 
-## Democratize code review
+## Code reviews are for everyone
+
+* If you are a team member on a project, request code reviews from a variety
+  of team members.  This shares both the knowledge and the burden of the code
+  review.
+* If you are the team lead of a project and you are being asked to do a lot of
+  code reviews, feel free to delegate reviews to other team members.  It is not
+  only your responsibility to review code.  The team needs to see what others are
+  doing and understand how or why it was done.
 
 As much as possible we should share code reviews between the core team members.
-This task falls to the project lead / architect by default, but when the
-balance falls too far out of line, it takes up a large amount of time for that
-person. This leads to lower quality review + fatigue on the architect.
+Often, we default to requesting code reviews from the the project lead / architect,
+but when the balance falls too far out of line, it takes up a large amount of time
+for that person. This leads to lower quality review + fatigue on the architect.
 
 Another benefit of sharing code review responsibilities is that domain knowledge
 is spread out amongst team members. This helps prevent individual team members
