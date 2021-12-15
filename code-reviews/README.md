@@ -51,7 +51,7 @@ When to do this is a judgment call. In general, choose the route that will help 
   doing and understand how or why it was done.
 
 As much as possible we should share code reviews between the core team members.
-Often, we default to requesting code reviews from the the project lead / architect,
+Often, we default to requesting code reviews from the project lead / architect,
 but when the balance falls too far out of line, it takes up a large amount of time
 for that person. This leads to lower quality review + fatigue on the architect.
 
