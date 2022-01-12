@@ -5,7 +5,7 @@ Creating the PR.
 -->
 
 <!-- Fill a related issue number, e.g. #123. -->
-Fixes issue #.
+Fixes #.
   
 ## Summary of changes
 
