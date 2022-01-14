@@ -49,6 +49,11 @@ When to do this is a judgment call. In general, choose the route that will help 
   code reviews, feel free to delegate reviews to other team members.  It is not
   only your responsibility to review code.  The team needs to see what others are
   doing and understand how or why it was done.
+* When requesting a review, do not tag the entire team.  Assign one or two
+  reviewers at most.  This will help the reviewers know who is responsible
+  for the next step.  Requesting too many reviewers may cause team members
+  to assume someone else will handle the task and the PR will be stranded in
+  limbo 🙁
 
 As much as possible we should share code reviews between the core team members.
 Often, we default to requesting code reviews from the project lead / architect,
