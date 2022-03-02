@@ -7,7 +7,7 @@ digraph decideD7 {
     offline [label="Move offline"];
     out [label="Migrate to\nnew system"];
     start [style=rounded, label="Drupal 7 site future"];
-    staticgen [label="Generate a static\nsite archive"];
+    staticgen [label="Generate a static\nsite archive", href="https://www.drupal.org/node/27882"];
     statichost [label="Upload to\nstatic hosting"];
 
     node [shape=diamond];
