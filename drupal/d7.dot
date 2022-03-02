@@ -1,0 +1,34 @@
+digraph decideD7 {
+    node [shape=box];
+    archive [label="Archive"];
+    d9 [label="Migrate to\nDrupal >= 9"];
+    end [style=rounded, label="Decided"];
+    keep [label="Keep D7"];
+    offline [label="Move offline"];
+    out [label="Migrate to\nnew system"];
+    start [style=rounded, label="Drupal 7 site future"];
+    staticgen [label="Generate a static\nsite archive"];
+    statichost [label="Upload to\nstatic hosting"];
+
+    node [shape=diamond];
+    qanonuse [label="Only non\nauth?"];
+    qd9 [label="Fit for\nD9?"];
+    qinuse [label="In use?"];
+    qneedsonline [label="Needs to\nbe online?"];
+    qtechchoose [label="Better solution\noutside Drupal?"];
+
+    start -> qinuse;
+    qinuse -> archive [label="no"];
+    archive -> offline -> end;
+    qinuse -> qneedsonline [label="yes"];
+    qneedsonline -> archive [label="no"];
+    qneedsonline -> qanonuse [label="yes"];
+    qanonuse -> staticgen [label="yes"];
+    staticgen -> statichost -> end;
+    qanonuse -> qtechchoose [label="no"];
+    qtechchoose -> out [label="yes"];
+    qtechchoose -> qd9 [label="no"];
+    qd9 -> d9 [label="yes"];
+    qd9 -> keep [label="no"];
+    {d9, keep, out } -> end;
+}
