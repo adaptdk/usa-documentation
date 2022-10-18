@@ -12,17 +12,22 @@
 
 ## Having your code reviewed
 
-- Remember that the person reviewing your work does not have as much context as
+**Rule number one of having your code reviewed is that you are the person responsible for completing the work.  Don't make the reviewer do your work.**
+
+- The person reviewing your work does not have as much context as
   you do. Provide them with as much context as you feel will be necessary for
   them to understand the changes you're proposing.
-- A great way to provide context to the reviewer is to use Github's review
-  features. For instance, if there is a line of code that you think will be
-  confusing, comment inline on code in your own PR so that the reviewer will
-  see it. You can find an [example of that in action](https://github.com/adaptdk/tufts-acsf/pull/335/files/fcfeee988c0082a24949cf18e66464fc518bc7e9#diff-8d31c81cc321d8731734e8da9e3af11a10306595cb94532b4d47c226582d9b32) on the Tufts ACSF project.
+  - A great way to provide context to the reviewer is to use Github's review
+    features. For instance, if there is a line of code that you think will be
+    confusing, comment inline on code in your own PR so that the reviewer will
+    see it. You can find an [example of that in action](https://github.com/adaptdk/tufts-acsf/pull/335/files/fcfeee988c0082a24949cf18e66464fc518bc7e9#diff-8d31c81cc321d8731734e8da9e3af11a10306595cb94532b4d47c226582d9b32) on the Tufts ACSF project.
 - Always provide thorough testing steps so that the reviewer can test appropriately. Testing steps include:
-  - Any steps needed to get your environment into the state that should be tested
-  - Any manual setup steps that need to happen prior to testing
-  - Testing steps + expected outcomes
+  - Providing step by step instructions for how to enter content / reproduce a bug / test that a bug is squashed, with links to a starting point for 
+    testing
+  - Providing links to places where you have already set up reviewable content
+  - Providing exact commands to run on the command line if there is setup that needs to be run
+  - Providing screenshots in multiple viewports if you don’t have preview sites available
+
 
 ## Work in small batches
 
