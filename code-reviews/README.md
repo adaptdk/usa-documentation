@@ -22,8 +22,8 @@
     confusing, comment inline on code in your own PR so that the reviewer will
     see it. You can find an [example of that in action](https://github.com/adaptdk/tufts-acsf/pull/335/files/fcfeee988c0082a24949cf18e66464fc518bc7e9#diff-8d31c81cc321d8731734e8da9e3af11a10306595cb94532b4d47c226582d9b32) on the Tufts ACSF project.
 - Always provide thorough testing steps so that the reviewer can test appropriately. Testing steps include:
-  - Providing step by step instructions for how to enter content / reproduce a bug / test that a bug is squashed, with links to a starting point for 
-    testing
+  - Providing step by step instructions for how to enter content / reproduce
+    a bug / test that a bug is squashed, and expected outcomes of the feature being tested
   - Providing links to places where you have already set up reviewable content
   - Providing exact commands to run on the command line if there is setup that needs to be run
   - Providing screenshots in multiple viewports if you don’t have preview sites available
