@@ -12,7 +12,10 @@
 
 ## Having your code reviewed
 
-**Rule number one of having your code reviewed is that you are the person responsible for completing the work.  Don't make the reviewer do your work.**
+**Rule number one of having your code reviewed is that you are the
+person responsible for completing the work.  We, as developers, should not put the burden
+of figuring out what has been done and why on the person reviewing that change.
+We should always be striving to make it easy for a reviewer to say yes.**
 
 - The person reviewing your work does not have as much context as
   you do. Provide them with as much context as you feel will be necessary for
